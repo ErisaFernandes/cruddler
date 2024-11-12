@@ -1,9 +1,10 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack' ;
-import ModuleListScreen from './src/components/Screens/ModuleListScreen';
+
 import ModuleAddScreen from './src/components/Screens/ModuleAddScreen';
-import ModuleViewScreen from './src/components/Screens/ModuleViewScreen';
+import ModuleListScreen from './src/components/Screens/ModuleListScreen';
 import ModuleModifyScreen from './src/components/Screens/ModuleModifyScreen';
+import ModuleViewScreen from './src/components/Screens/ModuleViewScreen';
 
 const Stack = createNativeStackNavigator();
 
